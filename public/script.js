@@ -1,6 +1,7 @@
 const socket=io('/')
 const peers={};
 const mypeer=new Peer(undefined,{
+    secure:'true',
     host:'https://superultraomeganodejs.herokuapp.com',
     port:'9901'
 })
