@@ -3,7 +3,7 @@ const peers={};
 const mypeer=new Peer(undefined,{
     key:"peerjs",
  
-    host:'https://mypeerjs999099999.herokuapp.com',
+    host:'mypeerjs999099999.herokuapp.com',
     port:'443'
 })
 
