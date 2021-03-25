@@ -27,4 +27,4 @@ io.on('connection', socket =>{
     })
 
 })
-server.listen(9900);
+server.listen(process.env.PORT || 9900);
